@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,97 +40,119 @@
     <section class="section detail-section">
       <div class="detail-grid">
         <article class="detail-card wide">
-          <h3>Introduction</h3>
+          <h3>Overview</h3>
           <p>
-            SafeBite is a practical AI concept and prototype designed to help users make faster and safer food decisions.
-            The project focuses on interpreting food packaging information such as ingredient labels and nutrition facts,
-            then using that information to help users determine whether a product fits their dietary needs.
+            SafeBite is a practical AI prototype designed to help users make faster and safer food decisions.
+            It interprets packaging information such as ingredient labels and nutrition facts, then translates that information
+            into a simple recommendation based on allergies and dietary needs.
           </p>
         </article>
 
-        <article class="detail-card wide">
-          <h3>Description</h3>
-          <p>
-            The project was designed as an AI assistant that can identify common allergens, evaluate whether foods may be
-            gluten-free or lactose-free, assess whether products appear organic, and comment on sugar-level concerns.
-            It was also structured to remember relevant user dietary preferences during conversation and respond with
-            concise, safety-first guidance.
-          </p>
+        <article class="detail-card">
+          <h3>Core Features</h3>
+          <ul>
+            <li>Identifies common allergens</li>
+            <li>Checks gluten-free and lactose-free concerns</li>
+            <li>Flags sugar level concerns</li>
+            <li>Responds with a quick Safe / Not Safe decision</li>
+          </ul>
         </article>
 
         <article class="detail-card">
           <h3>Objective</h3>
           <p>
-            The objective of SafeBite was to create a user-centered AI assistant that could support real-world shopping
-            decisions by making food label interpretation faster, clearer, and more personalized.
+            The goal of SafeBite was to create a user-centered AI assistant that supports real shopping decisions by making
+            food label interpretation faster, clearer, and more personalized.
           </p>
+        </article>
+
+        <article class="detail-card wide">
+          <h3>How SafeBite Works</h3>
+          <div class="flow-diagram">
+            <div class="flow-step">
+              <span class="mini-label">Step 1</span>
+              <h4>Input</h4>
+              <p>Food label image, nutrition panel, or ingredient text</p>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+              <span class="mini-label">Step 2</span>
+              <h4>AI Processing</h4>
+              <p>Ingredient parsing, allergen detection, and dietary rule checking</p>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+              <span class="mini-label">Step 3</span>
+              <h4>Output</h4>
+              <p>"Safe Bite" or "Not Safe Bite" with a short explanation</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="detail-card wide">
+          <h3>Decision Logic Example</h3>
+          <div class="logic-grid three-up">
+            <div class="logic-item bad">
+              <h4>Contains milk</h4>
+              <p>Not safe for lactose intolerance</p>
+            </div>
+            <div class="logic-item bad">
+              <h4>Shared with peanuts</h4>
+              <p>Not safe because of cross-contamination risk</p>
+            </div>
+            <div class="logic-item warn">
+              <h4>High added sugar</h4>
+              <p>Marked as a caution even if major allergens are absent</p>
+            </div>
+          </div>
         </article>
 
         <article class="detail-card">
           <h3>Tools and Technologies Used</h3>
           <ul>
-            <li>ChatGPT / custom AI prompt design</li>
+            <li>ChatGPT and custom AI prompt design</li>
             <li>Prompt engineering and structured bot instructions</li>
             <li>Food label interpretation logic</li>
-            <li>Image-based input analysis for packaging labels</li>
-            <li>Documentation and academic project writing</li>
+            <li>Image-based label analysis</li>
+            <li>Documentation and academic writing</li>
+          </ul>
+        </article>
+
+        <article class="detail-card">
+          <h3>Value Demonstrated</h3>
+          <ul>
+            <li>User-centered design</li>
+            <li>Safety-first communication</li>
+            <li>Applied AI system thinking</li>
+            <li>Clear technical explanation</li>
           </ul>
         </article>
 
         <article class="detail-card wide">
-          <h3>Process</h3>
-          <p>
-            I began by defining the user problem: many people have allergies, intolerances, or dietary restrictions but
-            struggle to interpret food labels quickly. From there, I refined the assistant’s purpose, constraints, and
-            response structure. I developed detailed bot instructions, improved the classification logic so that “safe”
-            or “not safe” appears first, added user-memory behavior for dietary concerns, and strengthened the system so
-            that explanations remain short, practical, and actionable. I also considered how the tool should interpret
-            images of labels and how it should provide safer alternatives when a product does not fit the user’s needs.
-          </p>
+          <h3>Process Summary</h3>
+          <ul>
+            <li>Defined a real user problem around allergies and label confusion</li>
+            <li>Built response rules so the main decision appears first</li>
+            <li>Refined the assistant to keep explanations short and actionable</li>
+            <li>Added image interpretation and personalized dietary guidance</li>
+          </ul>
         </article>
-
-        <article class="detail-card">
-          <h3>Value Proposition</h3>
-          <p>
-            SafeBite demonstrates my ability to design an AI solution around a clear user need. It shows that I can move
-            from an abstract idea to a structured, implementable system by defining requirements, building decision logic,
-            and aligning outputs with user safety and usability.
-          </p>
-        </article>
-
-        <article class="detail-card">
-          <h3>Unique Value</h3>
-          <p>
-            What makes this project distinctive is its combination of personalization, safety-first communication, and
-            real-life usefulness. Rather than being a generic food information tool, SafeBite was designed to support
-            individual dietary concerns in a way that is simple enough for everyday use.
-          </p>
-        </article>
-
-        <article class="detail-card wide">
-          <h3>Relevance</h3>
-          <p>
-            This artifact is relevant because it reflects important professional skills: user-centered design, AI
-            application, critical thinking, structured communication, and the ability to turn a common everyday problem
-            into a practical digital solution. It also aligns with my broader interest in using AI to make information
-            more accessible and decisions more informed.
-          </p>
-        </article>
-
 
         <article class="detail-card wide" id="evidence">
           <h3>Artifact Evidence</h3>
-          <p>
-            The live SafeBite AI assistant is available at the project link below. The screenshot shown on this page and on the
-            homepage artifact card is taken from the actual SafeBite interface and serves as visual evidence of the working project.
-          </p>
-          <div class="evidence-box">
-            <img src="images/safebite-cover.png" alt="SafeBite live project screenshot" class="evidence-image" />
+          <div class="evidence-grid split">
+            <div class="evidence-box">
+              <img src="images/safebite-cover.png" alt="SafeBite landing view" class="evidence-image" />
+              <p><strong>Interface View:</strong> Project landing page and starter prompts</p>
+            </div>
+            <div class="evidence-box">
+              <img src="images/safebite-chat.png" alt="SafeBite example interaction" class="evidence-image" />
+              <p><strong>Interaction Proof:</strong> Real example showing image-based allergy analysis and a direct recommendation</p>
+            </div>
+          </div>
+          <div class="live-link-box">
             <p><strong>Live Project:</strong> <a class="inline-link" href="https://chatgpt.com/g/g-69ac5880b70c8191b77523ee40c40b0d-safe-bite" target="_blank" rel="noopener noreferrer">Open SafeBite</a></p>
-            <p>
-              SafeBite helps users evaluate packaged foods by reading ingredient labels and identifying concerns related to allergens,
-              gluten-free needs, lactose intolerance, sugar level, and other dietary preferences.
-            </p>
+            <p class="note">This evidence section shows both the product interface and the decision output, making the system logic easier to scan visually.</p>
           </div>
         </article>
       </div>
