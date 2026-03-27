@@ -1,37 +1,33 @@
 # Xinyue Wang Professional Portfolio
 
-This repository contains my professional portfolio website for course submission. It includes my professional bio, value proposition, and artifact-based evidence of my academic and technical work.
+This repository contains my professional portfolio website for course submission and GitHub Pages deployment.
 
-## Included Pages
+## Included Files
 
-- `index.html` — portfolio homepage
-- `artifact-safebite.html` — Artifact 1: SafeBite
-- `artifact-ai-timeline.html` — Artifact 2: Evolution of Artificial Intelligence Timeline
+- `index.html` — homepage with featured artifacts placed near the top for faster scanning
+- `artifact-safebite.html` — Artifact 1: SafeBite case-study page
+- `artifact-ai-timeline.html` — Artifact 2: AI Timeline case-study page
 - `style.css` — shared site styling
+- `images/` — artifact cover images and SafeBite interaction screenshot
 
-## Images Folder
+## Included Images
 
-Place all portfolio cover images inside the `images/` folder.
-
-Included:
-- `safebite-cover.png`
-- `ai-timeline-cover.png`
+- `images/safebite-cover.png`
+- `images/safebite-chat.png`
+- `images/ai-timeline-cover.png`
 
 ## Deployment
 
-This project is ready to upload directly to GitHub.
-
-If using GitHub Pages:
-1. Push the repository to GitHub
-2. Open repository Settings
-3. Go to Pages
-4. Set the source branch
-5. Save and publish
+1. Upload all files to a GitHub repository
+2. Open **Settings > Pages**
+3. Set the source branch to your main branch
+4. Save and publish
 
 ## Portfolio Focus
 
 This portfolio highlights:
 - Quantitative analysis
 - Applied AI concepts
+- User-centered design
 - Technical communication
-- Academic and professional project presentation
+- Visual storytelling through artifacts
