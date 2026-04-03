@@ -4,10 +4,11 @@ This repository contains my professional portfolio website for course submission
 
 ## Included Files
 
-- `index.html` — homepage with featured artifacts placed near the top for faster scanning
+- `index.html` — homepage with featured artifacts near the top
 - `artifact-safebite.html` — Artifact 1: SafeBite case-study page
 - `artifact-ai-timeline.html` — Artifact 2: AI Timeline case-study page
 - `artifact-neural-networks.html` — Artifact 3: Neural Networks visual communication page
+- `artifact-fair-ai.html` — Artifact 4: Designing Fair & Responsible AI Systems
 - `style.css` — shared site styling
 - `images/` — artifact cover images and SafeBite interaction screenshot
 
@@ -17,6 +18,9 @@ This repository contains my professional portfolio website for course submission
 - `images/safebite-chat.png`
 - `images/ai-timeline-cover.png`
 - `images/neural-networks-cover.png`
+- `images/fair-ai-cover.png`
+- `images/fair-ai-framework.png`
+- `images/fair-ai-outcomes-dark.png`
 
 ## Deployment
 
@@ -33,4 +37,4 @@ This portfolio highlights:
 - User-centered design
 - Technical communication
 - Visual storytelling through artifacts
-- Communication skill through technical explanation
+- Responsible AI and bias-aware system design
