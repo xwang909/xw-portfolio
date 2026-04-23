@@ -9,6 +9,7 @@ This repository contains my professional portfolio website for course submission
 - `artifact-ai-timeline.html` — Artifact 2: AI Timeline case-study page
 - `artifact-neural-networks.html` — Artifact 3: Neural Networks visual communication page
 - `artifact-fair-ai.html` — Artifact 4: Designing Fair & Responsible AI Systems
+- `artifact-ai-ml-leadership-framework.html` — Artifact 5: AI/ML Leadership Framework
 - `style.css` — shared site styling
 - `images/` — artifact cover images and SafeBite interaction screenshot
 
@@ -21,6 +22,7 @@ This repository contains my professional portfolio website for course submission
 - `images/fair-ai-cover.png`
 - `images/fair-ai-framework.png`
 - `images/fair-ai-outcomes-dark.png`
+- `images/artifact5-leadership-framework.png`
 
 ## Deployment
 
